@@ -1,1 +1,44 @@
-body {background: #F0E68C;}
+body {background: #EEE8AA;}
+
+table {
+	margin-left: 260px;
+}
+
+td:hover {background-color: #FFFF00}
+
+footer {
+	text-align: center;
+}
+
+#history {
+	border: 3px solid;
+	padding: 10px;
+	background-color: brown;
+	font-family: "copperplate gothic light";
+	width: 75%;
+	margin-bottom: 30px
+}
+
+.my-history {
+	font-family: "arial";
+}
+
+ol {
+	border: 3px dotted;
+	width: 50%;
+}
+
+#resource-webpage {
+	border: 3px dashed;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a:visited {
+	color: hotpink;
+}
+
+.info {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
