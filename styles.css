@@ -41,4 +41,11 @@ a:visited {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+#top-links:hover {
+	background-color: green;
+	width: 175px;
+}
 
+.tel-gezer {
+	padding-bottom: 20px;
+}
