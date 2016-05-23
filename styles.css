@@ -1,4 +1,7 @@
-body {background: #EEE8AA;}
+body {
+	background: #EEE8AA;
+	max-width: 960px;
+}
 
 table {
 	margin-left: 260px;
@@ -47,5 +50,32 @@ a:visited {
 }
 
 .tel-gezer {
-	padding-bottom: 20px;
+	float: left;
+	padding-right: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#resources-page {
+	background-image: url(IMG_2692.jpg);
+	background-size: 100%;
+	background-blend-mode: saturation;
+}
+
+.video1 {
+	border: 3px solid black; 
+	height: 300px;
+	width: 350px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	 body {
+		font-size: x-small;
+		background-color: green;
+	}
+	
 }
