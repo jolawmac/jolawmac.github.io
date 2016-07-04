@@ -1,0 +1,108 @@
+body {
+	background: #EEE8AA;
+	max-width: 960px;
+}
+
+table {
+	margin-left: 260px;
+}
+
+td:hover {
+	background-color: #FFFF00;
+	}
+
+footer {
+	text-align: center;
+}
+
+#history {
+	border: 3px solid;
+	padding: 10px;
+	background-color: brown;
+	font-family: "copperplate gothic light";
+	width: 75%;
+	margin-bottom: 30px
+}
+
+.my-history {
+	font-family: "arial";
+}
+
+ol {
+	border: 3px dotted;
+	width: 50%;
+}
+
+#resource-webpage {
+	border: 3px dashed;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a:visited {
+	color: hotpink;
+}
+
+.info {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#top-links:hover {
+	background-color: green;
+	width: 175px;
+	display: inline-block;
+	vertical-align: top;
+	min-width: 5%;
+	padding: 10px;
+}
+
+#front-page {
+	width: 70%
+	display: inline-block;
+	min-width: 10%;
+	padding 10px;
+}
+
+.tel-gezer {
+	float: left;
+	padding-right: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#resources-page {
+	background-image: url(IMG_2692.jpg);
+	background-size: 100%;
+}
+
+.video1 {
+	border: 3px solid black; 
+	height: 300px;
+	width: 350px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	 body {
+		font-size: x-small;
+		background-color: green;
+	}
+
+}
+
+main {
+	width: 70%;
+	display: inline-block;
+	min-width: 10%;
+	padding: 10px;
+}
+
+nav {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	min-width: 5%;
+	padding: 10px;
+}
